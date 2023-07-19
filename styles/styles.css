@@ -1,0 +1,231 @@
+
+* {
+    /* margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; */
+    
+}
+
+/* shared */
+.linear-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+main {
+   width: 100%;
+}
+
+/* GOAT part */
+
+.play-goat-left .vector {
+    position: absolute;
+}
+
+.play-goat-right {
+    display: flex;
+    margin: 0 240px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.play-goat-head {
+color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 3rem;
+font-weight: 600;
+text-transform: uppercase;
+margin-bottom: 0px;
+}
+
+.goat {
+text-align: center;
+font-family: Work Sans;
+font-size: 6rem;
+font-weight: 800;
+text-transform: uppercase;
+margin-top: 3px;
+margin-bottom: 0px;
+}
+
+.feature  {
+margin-top: 10px;
+color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 500;
+}
+
+.sign-in {
+    width: 156px;
+    height: 65px;
+    padding: 21px 20px;
+    border-radius: 48px;
+    border-style: none;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: #FFF;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 600;
+text-transform: uppercase;
+margin: 41px 24px 0px 0px;
+}
+
+.go {
+    width: 185px;
+    height: 65px;
+padding: 21px 20px;
+align-items: flex-start;
+border-radius: 48px;
+border-style: none;
+background: #4EC5F7;
+color: #FFF;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 600;
+text-transform: uppercase;
+margin-top: 41px;
+
+
+}
+
+/* gamer part */
+.we-are-gamer {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-are-gamer .gamer-pic {
+margin: 55px 0px 56px 210px;
+}
+
+.text-1 {
+text-align: right;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 95px 240px 24px 195px;
+}
+
+.text-2 {
+width: 520px;
+color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 0px 240px 32px 52px;
+}
+
+.we-are-gamer button {
+    width: 208px;
+    height: 65px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 20px;
+    margin: 0px 240px 24px 368px;
+}
+
+.know-more {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+/* online games */
+.online-games {
+    width: 100%;
+    height: 1719px;
+    background-color: #FFF;
+}
+
+.online-games-heading {
+color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 3rem;
+font-weight: 700;
+margin: 120px 633px 10px 632px;
+}
+
+.online-games-para {
+color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 30px; 
+margin: 0px 730px 48px 728px;
+}
+
+.slider-container {
+    display: flex;
+    margin: 0 240px 120px 240px;
+    gap: 24px;
+}
+
+.slider-container p {
+    width: 342px;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 30px;
+}
+
+.instantly {
+    display: flex;
+}
+
+.instantly-head {
+    width: 341px;
+    height: 180px;
+    text-align: right;
+font-family: Work Sans;
+font-size: 3rem;
+font-weight: 700;
+line-height: 60px;
+margin: 336px 120px 24px 439px;
+}
+
+.instantly-para {
+    width: 353px;
+    height: 90px;
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin: 0px 120px 330px 427px;
+}
+
+.instant-main {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: 120px;
+    margin-right: 240px;
+}
+
+.instantly-secondary {
+    position: relative;
+    margin-top: 480px;
+    /* margin-left: 120px; */
+    /* margin: 480.75px 701.5px 120px 900px;
+} */
